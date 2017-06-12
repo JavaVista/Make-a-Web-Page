@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html>
+<!-- Stage 1 submission. -->
+	<head>
+	<link rel="stylesheet" href="style.css">
+	<title>Javi's Important Notions</title> 
+	</head>
+<body>
+	<div class="page">
+		<div class="table" >
+			<h1>Contents</h1>
+				<ol>
+					<li><a href="#l-1">World Wide Web and HTML</a>
+						<ul>
+							<li><a href="#l-1-1">How it Works</a></li>
+							<li><a href="#l-1-2">HTML</a></li>
+							<li><a href="#l-1-3">HTML Elements, Tags & Attributes</a></li>
+							<li><a href="#l-1-4">HTML Elements: Inline vs Block</a></li>
+							<li><a href="#l-1-5">HTML Document Structure</a></li>
+							<li><a href="#l-1-6">Stupid Computers</a></li>
+						</ul>
+					</li>
+					<li><a href="#l-2">CSS and how it gives style to HTML</a>
+						<ul>
+							<li><a href="#l-2-1">CSS</a></li>
+							<li><a href="#l-2-2">How does CSS "control" HTML?</a></li>
+							<li><a href="#l-2-3">HTML Divs vs Spans with CSS & JavaScript</a></li>
+						</ul>
+					</li>
+					<li><a href="#l-3">Tools of the Trade</a>
+						<ul>
+							<li><a href="#l-3-1">Languages</a></li>
+							<li><a href="#l-3-2">Developer Tools (in the Browser)</a></li>
+							<li><a href="#l-3-3">Text Editors (for programming</a></li>
+						</ul>
+					</li>
+				</ol>
+		</div>
+		<h1><strong>Notions that are Important</strong></h1> 
+		<div class="title">
+			<h2 id="l-1">World Wide Web and HTML
+			</h2>
+		</div> 
+		<div class="heading" id="l-1-1">
+		How it Works
+		</div>
+		<div class="description">
+			<p>
+			The internet is comprised of computers that are network together to form the web. These computers communicate together. If you type a web address such as <a href="www.dogpile.com"><em>www.dogpile.com</em></a> a request called a <em>HTTP Request</em>is sent to a server. Then server computer then finds the HTML document and send it back to the computer that made the request. It displays the content in the computer’s browser. HTML is was glue everything together. Hyper Links is what makes the Web Web-like. Invented in the early 1990s and has about 30 billion pages.
+			</p>
+		</div>	
+		<div class="img">
+			Here is an illustration that explains this:
+			<p>
+			<img src= "https://www.kevcom.com/words/guide/graphics/client.server.gif" title="Web" alt="WWW">
+			</p>
+		</div>
+		<div class="heading" id="l-1-2">
+		HTML
+		</div>
+		<div class="description">
+			<p>	
+			The heart of the Web are the HTML documents. HTML documents display the information & contents on the web. HTML is the abbreviation of <em>Hypertext Markup Language</em>. The documents contain text content which shows "what you see", markup which shows "how it looks", references to other documents like video or images and links to other pages. 
+			</p>
+		</div>	
+		<div class="img">
+		A basic illustration:
+			<p>
+			<img src= "images/HTML.png" title="HTML" alt="HTML Document">
+			</p>
+		</div>
+		<div class="heading" id="l-1-3">
+		HTML Elements, Tags & Attributes
+		</div>
+		<div class="description">
+			<p>	
+			HTML documents contain HTML <em>Elements</em>. When creating an HTML document we use different types of elements by using HTML <em>Tags</em> to tell the computer’s browser what to display. An element has an opening tag and/or a closing tag. Eg. &lt; name &gt; content &lt;  / name &gt;. <em>Attributes</em> provide additional information about an element. They come in name/value pairs like: name="value".
+			</p>
+		</div>
+		<div class="heading" id="l-1-4">
+		HTML Elements: Inline vs Block
+		</div>
+		<div class="description">
+			<p>	
+			Elements are either <em>Inline</em> or <em>Block</em> on an HTML document. Inline elements will occupy the same line if there is room. Block elements take up a full like and forms an "invisible box" around the content inside of them. Eg. The Span Tag is inline and the Div Tag is block.
+			</p>
+		</div>
+		<div class="heading" id="l-1-5">
+		HTML Document Structure
+		</div>
+		<div class="description">
+			<p>	
+			An HTML document has two main parts: the <b>Head</b> and the <b>Body</b>. But firstly every HTML document should start by declaring that it is an HTML document by using the HTML tag. When programmers talk about the "DOM" (Document Object Model) they are talking about the tree-like structure of a page. 
+			</p>
+		</div>	
+		<div class="img">
+		More information about DOM Tree Structure:
+			<p>
+			<a href="https://en.wikipedia.org/wiki/Tree_structure"> <em>Click here</em></a>
+			</p>
+		</div>	
+		<div class="img">
+		Here is an example of a basic structure:
+		<p>
+		<img src= "http://www.scriptingmaster.com/images/html/basic-html-tags.GIF" title="Structure" alt="HTML Structure">
+		</p>
+		<ul class="list">
+			<li><b>html</b> = Tag that surround the document and it tells the browser this is HTML document.</li> 
+			<li><b>head</b> = Tag that includes the tittle (the tittle shows on the top of you browser or tab) and metadata. It also can include Javascript and CSS.</li>
+			<li><b>body</b> = The content of the document. What you see in the screen.</li>
+		</ul>
+		</div>
+		<div class="heading" id="l-1-6">
+		Stupid Computers
+		</div>
+		<div class="description">
+			<p>	
+			Programmers often describe Computers as stupid. They (usually) aren't insulting computers.  Computers are not smart and they are indeed stupid because they interpret instructions literally. If a programmer makes a very small mistake it can cause a huge problem in a program. They are not smart enough to figured out the mistake and fix it.
+			</p>
+		</div>
+		<div class="title">
+			<h2 id="l-2">
+			CSS and how it gives style to HTML
+			</h2>
+		</div> 
+		<div class="heading" id="l-2-1">
+		CSS
+		</div>
+		<div class="description">
+			<p>	
+			CSS stands for <em>Cascading Style Sheet</em> and they give programmers a way to control the style of related HTML elements. You can also think about CSS as a search and replace tool: you identify a class or a tag of the element you want to find (or match, in CSS terminology Cascading means that rules are applied not only to the elements they directly match, but also to all of those elements' child elements. However, if a child element has multiple, overlapping rules defined for it, the more specific rule takes effect. Styles can be defined in different places and are applied in the following order, with definitions further down the list overwriting previous definitions
+			</p>
+		</div> 
+		<div class="heading" id="l-2-2">
+		How does CSS "control" HTML?
+		</div>
+		<div class="img">
+			<p>
+			If you want to write CSS that makes all h1 elements have a black background and white text, you would write:
+			</p>
+			<p>
+			<img src= "images/CSSexample.png" title="CSS" alt="CSS example">
+			</p>
+			<p>
+			In this example, the <b>h1</b> is a selector. It says to the browser "I want you to apply the rules I'm about to tell you to every <b>h1</b> element." After the <b>h1</b> there is a left curly brace <b>{</b> and at the bottom there is a matching right curly brace <b>}</b>. Everything between these curly braces will be interpreted as a "rule" that should be applied to every <b>h1</b> element. The line of code that says background-color <b>: black;</b> is declaration. background-color is a property and black is the value of that property.
+			</p>
+		</div>
+		<div class="heading" id="l-2-3">
+		HTML Divs vs Spans with CSS & JavaScript
+		</div>
+		<div class="description">
+			<p>
+			<em>Span</em> represents an inline portion of a document, for example words within a sentence. <em>Div</em> represents a block-level portion of a document such as a few paragraphs, or an image with its caption. Neither element has any meaning in itself but they allow semantic attributes (e.g. lang="en-US"), CSS styling (e.g. color, typography) or client-side scripting like JavaScript (e.g. animation, hiding, augmentation) to be applied.
+			</p>
+		</div>
+			<div class="title">
+				<h2 id="l-3">
+				Tools of the Trade
+				</h2>
+			</div> 
+			<div class="heading" id="l-3-1">
+			Languages
+			</div>
+			<div class="description">
+				<p>	
+				HTML, CSS and JavaScript are "languages" and they all have a syntax and rules. HTML files are the walls; they are the structure and framework of the page design. CSS controls the "style" of a page (how it looks). The style; like the color of the walls and the carpets. JavaScript is the interactive components; like the garage door opener or the TV remote control. They change some element of the house. (DRY) <em>Don’t repeat yourself</em> is a principle of software development, aimed at reducing repetition of information of all kind. Each significant piece of functionality in a program should be implemented in just one place in the source code.
+				</p>
+			</div>
+			<div class="heading" id="l-3-2">
+			Developer Tools (in the Browser)
+			</div>
+			<div class="description">
+				<p>
+				Every modern web browser includes a powerful suite of developer tools. These tools do a range of things, from inspecting currently-loaded HTML, CSS and JavaScript to showing which assets the page has requested and how long they took to load.
+				</p>
+			</div>
+			<div class="heading" id="l-3-3">
+			Text Editors (for programming)
+			</div>
+			<div class="description">
+				<p>
+				When writing code, programmers use special text editors (like Sublime Text for example). These editors make the programmer's life easier. For example, some text editors will automatically generate a closing HTML tag when you write an opening tag.
+				</p>
+			</div>
+		</div>
+</body>
+</html>
